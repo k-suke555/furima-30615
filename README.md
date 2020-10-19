@@ -4,18 +4,16 @@
 
 ## usersテーブル
 
-| column               | Type    | Options     |
-|--------------------- |-------- |------------ |
-| name                 | string  | null: false |
-| email                | string  | null: false |
-| password             | string  | null: false |
-| last_name_kanji      | string  | null: false |
-| first_name_kanji     | string  | null: false |
-| last_name_kana       | string  | null: false |
-| first_name_kana      | string  | null: false |
-| year_of_birth        | string  | null: false |
-| month_of_birth       | string  | null: false |
-| day_of_birth         | string  | null: false |
+| column               | Type     | Options     |
+|--------------------- |--------- |------------ |
+| name                 | string   | null: false |
+| email                | string   | null: false |
+| password             | string   | null: false |
+| last_name_kanji      | string   | null: false |
+| first_name_kanji     | string   | null: false |
+| last_name_kana       | string   | null: false |
+| first_name_kana      | string   | null: false |
+| birthday             | datetime | null: false |
 
 ### Association
 - has_many :items
@@ -27,10 +25,11 @@
 | ---------------- | ---------- | ------------------------------ |
 | item_name        | string     | null: false                    |
 | item_description | text       | null: false                    |
-| category         | string     | null: false                    |
-| burden           | string     | null: false                    |
-| area             | string     | null: false                    |
-| days_to_ship     | string     | null: false                    |
+| category_id      | integer     | null: false                    |
+| status_id        | integer    | null: false                    |
+| burden_id        | integer    | null: false                    |
+| area_id          | integer    | null: false                    |
+| days_to_ship_id  | integer    | null: false                    |
 | user             | references | null: false, foreign_key: true |
 
 ### Association
@@ -44,7 +43,6 @@
 | ------------  | ---------- | ------------------------------ |
 | user          | references | null: false, foreign_key: true |
 | item          | references | null: false, foreign_key: true |
-| address       | references | null: false, foreign_key: true |
 
 ### Association
 - belongs_to :user
@@ -56,7 +54,7 @@
 | Column        | Type       | Options                        |
 | ------------  | ---------- | ------------------------------ |
 | postal_code   | string     | null: false                    |
-| prefecture    | integer    | null: false                    |
+| prefecture_id | integer    | null: false                    |
 | city          | string     | null: false                    |
 | house_number  | string     | null: false                    |
 | building_name | string     |                     |

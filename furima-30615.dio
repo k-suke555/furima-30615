@@ -1,6 +1,6 @@
-<mxfile host="65bd71144e" modified="2020-10-19T04:36:50.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="_2R9vUgek12DphC3Ac1w">
+<mxfile host="65bd71144e" modified="2020-10-19T06:09:31.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="aTCgyLXWV178vojJlqcb">
     <diagram id="z1ifNuMAOmO8DxjEnN6p" name="ページ1">
-        <mxGraphModel dx="1843" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1274" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,17 +10,17 @@
                 <mxCell id="91" value="usersテーブル" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;sketch=0;" vertex="1" parent="1">
                     <mxGeometry x="120" y="10" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li&gt;nicname&lt;/li&gt;&lt;li&gt;email&lt;/li&gt;&lt;li&gt;password&lt;/li&gt;&lt;li&gt;last_name_kanji&lt;/li&gt;&lt;li&gt;first_name_kanji&lt;/li&gt;&lt;li&gt;last_name_kana&lt;/li&gt;&lt;li&gt;first_name_kana&lt;/li&gt;&lt;li&gt;year_of_birth&lt;/li&gt;&lt;li&gt;month_of_birth&lt;/li&gt;&lt;li&gt;day_of_birth&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;sketch=0;" vertex="1" parent="1">
+                <mxCell id="92" value="&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li&gt;nicname&lt;/li&gt;&lt;li&gt;email&lt;/li&gt;&lt;li&gt;password&lt;/li&gt;&lt;li&gt;last_name_kanji&lt;/li&gt;&lt;li&gt;first_name_kanji&lt;/li&gt;&lt;li&gt;last_name_kana&lt;/li&gt;&lt;li&gt;first_name_kana&lt;/li&gt;&lt;li&gt;birthday&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;sketch=0;" vertex="1" parent="1">
                     <mxGeometry x="15" y="50" width="310" height="310" as="geometry"/>
                 </mxCell>
                 <mxCell id="95" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="570" width="360" height="300" as="geometry"/>
+                    <mxGeometry x="570" width="360" height="340" as="geometry"/>
                 </mxCell>
                 <mxCell id="96" value="itemsテーブル" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;sketch=0;" vertex="1" parent="1">
                     <mxGeometry x="700" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li&gt;title&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;category&lt;/li&gt;&lt;li&gt;price&lt;/li&gt;&lt;li&gt;burden&lt;/li&gt;&lt;li&gt;area&lt;/li&gt;&lt;li&gt;days_to_ship&lt;/li&gt;&lt;li&gt;user&amp;nbsp; &amp;nbsp; :refarences&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="590" y="50" width="320" height="220" as="geometry"/>
+                <mxCell id="97" value="&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li&gt;title&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;category_id&lt;/li&gt;&lt;li&gt;status_id&lt;/li&gt;&lt;li&gt;price&lt;/li&gt;&lt;li&gt;burden_id&lt;/li&gt;&lt;li&gt;area_id&lt;/li&gt;&lt;li&gt;days_to_ship_id&lt;/li&gt;&lt;li&gt;user&amp;nbsp; &amp;nbsp; :refarences&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="50" width="320" height="270" as="geometry"/>
                 </mxCell>
                 <mxCell id="98" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="50" y="480" width="370" height="270" as="geometry"/>
@@ -61,7 +61,7 @@
                 <mxCell id="120" value="postcpde" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="118">
                     <mxGeometry y="26" width="470" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" value="prefecture" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="118">
+                <mxCell id="121" value="prefecture_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="118">
                     <mxGeometry y="56" width="470" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="122" value="city" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="118">
