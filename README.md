@@ -35,8 +35,7 @@
 
 ### Association
 - belongs_to :user
-- has_one :purchases
-- has_many :comments
+- has_one :purchase
 
 ## purchases テーブル
 
