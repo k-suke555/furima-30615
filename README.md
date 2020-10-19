@@ -6,7 +6,7 @@
 
 | column               | Type     | Options     |
 |--------------------- |--------- |------------ |
-| name                 | string   | null: false |
+| nickname             | string   | null: false |
 | email                | string   | null: false |
 | password             | string   | null: false |
 | last_name_kanji      | string   | null: false |
@@ -23,8 +23,8 @@
 
 | Column           | Type       | Options                        |
 | ---------------- | ---------- | ------------------------------ |
-| item_name        | string     | null: false                    |
-| item_description | text       | null: false                    |
+| name             | string     | null: false                    |
+| description      | text       | null: false                    |
 | category_id      | integer    | null: false                    |
 | status_id        | integer    | null: false                    |
 | burden_id        | integer    | null: false                    |
