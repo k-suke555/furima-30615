@@ -4,7 +4,6 @@ class OrderAddress
 
   with_options presence: true do
     validates :prefecture_id, :city, :house_number, :token
-    #validates :phone_number, format: { with: /^(0{1}\d{9,10})$/}
     validates :postal_code, format: {with: /\A[0-9]{3}-[0-9]{4}\z/, message: "is invalid. Include hyphen(-)"}
     validates :phone_number, format: {with: /\A\d{10}$|^\d{11}\z/}
   end
