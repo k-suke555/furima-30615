@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :items
-  has_many :purchases
+  has_many :orders
   with_options presence: true do
     validates :last_name_kanji, format: { with: /\A[ぁ-んァ-ン一-龥]/, message: 'Last name Full-width characters' }
     validates :first_name_kanji, format: { with: /\A[ぁ-んァ-ン一-龥]/, message: 'First name Full-width characters' }
