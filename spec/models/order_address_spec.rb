@@ -20,7 +20,7 @@ RSpec.describe OrderAddress, type: :model do
       expect(@order_address.errors.full_messages).to include("Postal code can't be blank")
     end
     it '郵便番号にはハイフンが必要であること（123-4567となる）' do
-      @order_address.postal_code = "123"
+      @order_address.postal_code = "1234567"
       @order_address.valid?
       expect(@order_address.errors.full_messages).to include("Postal code is invalid. Include hyphen(-)")
     end
