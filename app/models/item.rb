@@ -17,5 +17,5 @@ class Item < ApplicationRecord
     validates :image
     validates :price, numericality: { greater_than_or_equal_to: 300, less_than_or_equal_to: 9_999_999 }
   end
-  validates :category_id, :status_id, :burden_id, :area_id, :days_to_ship_id, numericality: { other_than: 1 }
+  validates :category_id, :status_id, :burden_id, :area_id, :days_to_ship_id, numericality: { other_than: 1, message: 'は---以外を選択してください' }
 end
