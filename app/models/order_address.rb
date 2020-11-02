@@ -4,10 +4,10 @@ class OrderAddress
 
   with_options presence: true do
     validates :prefecture_id, :city, :house_number, :token
-    validates :postal_code, format: {with: /\A[0-9]{3}-[0-9]{4}\z/, message: "is invalid. Include hyphen(-)"}
+    validates :postal_code, format: {with: /\A[0-9]{3}-[0-9]{4}\z/, message: "にはハイフン(-)が必要です"}
     validates :phone_number, format: {with: /\A\d{10}$|^\d{11}\z/}
   end
-  validates :prefecture_id, numericality: { other_than: 1, message: "can't be blank" }
+  validates :prefecture_id, numericality: { other_than: 1, message: "は---以外を選択してください" }
 
   def save
     # 購入履歴の情報を保存し、「order」という変数に入れている
